@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background_floating_material_light">
+
+    /* logo */
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=" POS \n KNOCK "
+        android:textSize="25dp"
+        android:textColor="#F3A545"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@drawable/img_pos_knock_background"/>
+
+    /* menu */
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/menu_button"
+        android:layout_gravity="right|top" />
+
+    // search enigne
+    <SearchView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="40dp"
+        android:textColor="#FFFFFF"
+        android:background="#A2CC17"
+        android:id="@+id/btn_search"
+        android:layout_gravity="right|top" />
+
+    // food
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="24dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="   KNOCK"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:background="#70A2CC17"
+        android:id="@+id/txt_searchBox"
+        android:gravity="center|left"
+        android:layout_gravity="center_horizontal|top"
+        android:allowUndo="false"
+        android:autoText="true"
+        android:contextClickable="true"
+        android:inputType="textCapWords"
+        android:singleLine="true" />
+
+    // what is this?
+    <Space
+        android:layout_width="20px"
+        android:layout_height="20px"
+        android:layout_gravity="right|center_vertical" />
+
+    // food
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/food"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="100dp"
+        android:text="Food"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/txt_food"
+        android:layout_gravity="left|center"
+        android:typeface="monospace" />
+
+    // fruit
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/fruit"
+        android:layout_gravity="right|center_vertical" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="95dp"
+        android:text="Fruit"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/txt_fruit"
+        android:layout_gravity="right|center"
+        android:typeface="monospace" />
+
+    // tutor
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/tutor"
+        android:layout_gravity="left|center"
+        android:id="@+id/pic_tutor" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:text="Tutor"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/txt_tutor"
+        android:layout_gravity="left|center"
+        android:typeface="monospace" />
+
+    // machine
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/machine"
+        android:layout_gravity="right|center_vertical" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="235dp"
+        android:text="Machine"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/txt_machine"
+        android:layout_gravity="right|center"
+        android:typeface="monospace" />
+
+    //condiment
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:src="@drawable/condiment"
+        android:layout_gravity="left|center"
+        android:id="@+id/pic_condiment" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="400dp"
+        android:text="Condiment"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/txt_condiment"
+        android:layout_gravity="left|center"
+        android:typeface="monospace" />
+
+    //household
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="340dp"
+        android:src="@drawable/household"
+        android:layout_gravity="right|center_vertical" />
+
+    <TextView
+        android:layout_width="142dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="400dp"
+        android:text="Household"
+        android:gravity="center"
+        android:background="#ffffff"
+        android:id="@+id/txt_household"
+        android:layout_gravity="right|center"
+        android:typeface="monospace" />
+</FrameLayout>
+
+
+

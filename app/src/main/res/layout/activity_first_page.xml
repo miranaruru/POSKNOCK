@@ -1,0 +1,106 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#ffffff" tools:context=".FirstPage"
+    android:id="@+id/fl_first_page"
+    android:backgroundTint="#ffffff">
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/glass"
+        android:layout_gravity="left|center_vertical" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="330dp"
+        android:text="Fresh lemons. Credit card payment. Straight to your door."
+        android:id="@+id/txt_lemonsAds"
+        android:layout_gravity="right|top"
+        android:textColor="#A2CC17"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="15dp"
+        android:gravity="left"
+        android:textSize="25dp"
+        android:typeface="monospace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Buy Now  "
+        android:id="@+id/btn_buyNow"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:background="#A2CC17"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="70dp"
+        android:textSize="25dp"
+        android:typeface="sans" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/btn_login"
+        android:layout_gravity="right|top"
+        android:textColor="#E6D24E"
+        android:background="#ffffff"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Register "
+        android:id="@+id/btn_register"
+        android:layout_gravity="right|top"
+        android:textColor="#ffffff"
+        android:background="#E6D24E"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:typeface="sans" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=" POS \n KNOCK "
+        android:textSize="25dp"
+        android:textColor="#F3A545"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@drawable/img_pos_knock_background"/>
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:text=" POS \n KNOCK "
+        android:textSize="20dp"
+        android:textColor="#80ffffff"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="75dp"
+        android:gravity="center"
+        android:background="@drawable/img_pos_knock_background_2"
+        android:layout_gravity="left|center_vertical" />
+
+    <ImageView
+        android:layout_width="230dp"
+        android:layout_height="178dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/lemon"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/menu_button"
+        android:layout_gravity="left|top" />
+
+</FrameLayout>
