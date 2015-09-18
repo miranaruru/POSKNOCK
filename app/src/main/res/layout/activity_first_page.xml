@@ -103,4 +103,15 @@
         android:background="@drawable/menu_button"
         android:layout_gravity="left|top" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="﻿© 2015 By POS KNOCK"
+        android:id="@+id/text_copyright"
+        android:textSize="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
 </FrameLayout>
