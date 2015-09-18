@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/background_floating_material_light">
+
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=" POS \n KNOCK "
+        android:textSize="25dp"
+        android:textColor="#F3A545"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@drawable/img_pos_knock_background"/>
+
+
+now it's ok la~ hands to you!
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/menu_button"
+        android:layout_gravity="right|top" />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:textAppearance="@color/switch_thumb_normal_material_light"
+        android:text="USERNAME"
+        android:textSize="25dp"
+        android:textColor="#A2CC17"
+        android:background="#ffffff"
+        android:layout_marginTop="-80dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/txt_username"
+        android:layout_gravity="left|center"
+        android:singleLine="false"
+        android:typeface="monospace" />
+
+
+</FrameLayout>
