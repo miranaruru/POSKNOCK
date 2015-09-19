@@ -55,151 +55,169 @@
         android:inputType="textCapWords"
         android:singleLine="true" />
 
-    // what is this?
-    <Space
-        android:layout_width="20px"
-        android:layout_height="20px"
-        android:layout_gravity="right|center_vertical" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    // food
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="400dp"
-        android:maxWidth="140dp"
-        android:maxHeight="400dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/food"
-        android:layout_gravity="left|center_vertical" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-    <TextView
-        android:layout_width="140dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="70dp"
-        android:text="Food"
-        android:gravity="center"
-        android:background="#ffffff"
-        android:id="@+id/txt_food"
-        android:layout_gravity="left|center"
-        android:typeface="monospace" />
+            </LinearLayout>
+            // food
+            <ImageView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="400dp"
+                android:maxWidth="@dimen/homepage_thumbnail_width"
+                android:maxHeight="400dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="-50dp"
+                android:src="@drawable/homepage_tb_food"
+                android:clickable="true"
+                android:layout_gravity="left|center_vertical" />
 
-    // fruit
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="400dp"
-        android:maxWidth="140dp"
-        android:maxHeight="400dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="0dp"
-        android:src="@drawable/fruit"
-        android:layout_gravity="right|center_vertical" />
+            <TextView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Food"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:id="@+id/txt_food"
+                android:layout_gravity="left|center"
+                android:typeface="monospace" />
 
-    <TextView
-        android:layout_width="140dp"
-        android:layout_height="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="70dp"
-        android:text="Fruit"
-        android:gravity="center"
-        android:background="#ffffff"
-        android:id="@+id/txt_fruit"
-        android:layout_gravity="right|center"
-        android:typeface="monospace" />
+            // fruit
+            <ImageView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="400dp"
+                android:maxWidth="@dimen/homepage_thumbnail_width"
+                android:maxHeight="400dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="-50dp"
+                android:src="@drawable/homepage_tb_fruit"
+                android:clickable="true"
+                android:layout_gravity="right|center_vertical" />
 
-    // tutor
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="400dp"
-        android:maxWidth="140dp"
-        android:maxHeight="400dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="150dp"
-        android:src="@drawable/tutor"
-        android:layout_gravity="left|center"
-        android:id="@+id/pic_tutor" />
+            <TextView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Fruit"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:id="@+id/txt_fruit"
+                android:layout_gravity="right|center"
+                android:typeface="monospace" />
 
-    <TextView
-        android:layout_width="140dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="210dp"
-        android:text="Tutor"
-        android:gravity="center"
-        android:background="#ffffff"
-        android:id="@+id/txt_tutor"
-        android:layout_gravity="left|center"
-        android:typeface="monospace" />
+            // tutor
+            <ImageView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="400dp"
+                android:maxWidth="@dimen/homepage_thumbnail_width"
+                android:maxHeight="400dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/homepage_tb_tutor"
+                android:clickable="true"
+                android:layout_gravity="left|center"
+                android:id="@+id/pic_tutor" />
 
-    // machine
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="400dp"
-        android:maxWidth="140dp"
-        android:maxHeight="400dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="150dp"
-        android:src="@drawable/machine"
-        android:layout_gravity="right|center_vertical" />
+            <TextView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="160dp"
+                android:text="Tutor"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:id="@+id/txt_tutor"
+                android:layout_gravity="left|center"
+                android:typeface="monospace" />
 
-    <TextView
-        android:layout_width="140dp"
-        android:layout_height="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="205dp"
-        android:text="Machine"
-        android:gravity="center"
-        android:background="#ffffff"
-        android:id="@+id/txt_machine"
-        android:layout_gravity="right|center"
-        android:typeface="monospace" />
+            // machine
+            <ImageView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="400dp"
+                android:maxWidth="@dimen/homepage_thumbnail_width"
+                android:maxHeight="400dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/homepage_tb_machine"
+                android:clickable="true"
+                android:layout_gravity="right|center_vertical" />
 
-    //condiment
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="400dp"
-        android:maxWidth="140dp"
-        android:maxHeight="400dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="290dp"
-        android:src="@drawable/condiment"
-        android:layout_gravity="left|center"
-        android:id="@+id/pic_condiment" />
+            <TextView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="165dp"
+                android:text="Machine"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:id="@+id/txt_machine"
+                android:layout_gravity="right|center"
+                android:typeface="monospace" />
 
-    <TextView
-        android:layout_width="140dp"
-        android:layout_height="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="370dp"
-        android:text="Condiment"
-        android:gravity="center"
-        android:background="#ffffff"
-        android:id="@+id/txt_condiment"
-        android:layout_gravity="left|center"
-        android:typeface="monospace" />
+            //condiment
+            <ImageView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="400dp"
+                android:maxWidth="@dimen/homepage_thumbnail_width"
+                android:maxHeight="400dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="240dp"
+                android:src="@drawable/homepage_tb_condiment"
+                android:clickable="true"
+                android:layout_gravity="left|center"
+                android:id="@+id/pic_condiment" />
 
-    //household
-    <ImageView
-        android:layout_width="140dp"
-        android:layout_height="400dp"
-        android:maxWidth="140dp"
-        android:maxHeight="400dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="310dp"
-        android:src="@drawable/household"
-        android:layout_gravity="right|center_vertical" />
+            <TextView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="320dp"
+                android:text="Condiment"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:id="@+id/txt_condiment"
+                android:layout_gravity="left|center"
+                android:typeface="monospace" />
 
-    <TextView
-        android:layout_width="140dp"
-        android:layout_height="40dp"
-        android:layout_marginRight="40dp"
-        android:layout_marginTop="370dp"
-        android:text="Household"
-        android:gravity="center"
-        android:background="#ffffff"
-        android:id="@+id/txt_household"
-        android:layout_gravity="right|center"
-        android:typeface="monospace" />
+            //household
+            <ImageView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="400dp"
+                android:maxWidth="@dimen/homepage_thumbnail_width"
+                android:maxHeight="400dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="260dp"
+                android:src="@drawable/homepage_tb_household"
+                android:clickable="true"
+                android:layout_gravity="right|center_vertical" />
+
+            <TextView
+                android:layout_width="@dimen/homepage_thumbnail_width"
+                android:layout_height="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="320dp"
+                android:text="Household"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:id="@+id/txt_household"
+                android:layout_gravity="right|center"
+                android:typeface="monospace" />
+        </FrameLayout>
+
+
+    </ScrollView>
+
 </FrameLayout>
 
 
