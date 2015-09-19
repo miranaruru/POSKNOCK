@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:padding="15dp"
+    android:columnCount="2"
+    android:rowCount="3"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        // food
+        <ImageView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="100dp"
+            android:maxWidth="@dimen/homepage_thumbnail_width"
+            android:src="@drawable/homepage_tb_food"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+        <TextView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="40dp"
+            android:text="Food"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:id="@+id/txt_food"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        // tutor
+        <ImageView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="100dp"
+            android:maxWidth="@dimen/homepage_thumbnail_width"
+            android:src="@drawable/homepage_tb_tutor"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+        <TextView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="40dp"
+            android:text="Tutor"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:id="@+id/txt_tutor"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        // condiment
+        <ImageView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="100dp"
+            android:maxWidth="@dimen/homepage_thumbnail_width"
+            android:src="@drawable/homepage_tb_condiment"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+        <TextView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="40dp"
+            android:text="Condiment"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:id="@+id/txt_condiment"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        // fruit
+        <ImageView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="100dp"
+            android:maxWidth="@dimen/homepage_thumbnail_width"
+            android:src="@drawable/homepage_tb_fruit"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+        <TextView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="40dp"
+            android:text="Fruit"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:id="@+id/txt_fruit"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        // machine
+        <ImageView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="100dp"
+            android:maxWidth="@dimen/homepage_thumbnail_width"
+            android:src="@drawable/homepage_tb_machine"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+        <TextView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="40dp"
+            android:text="Machine"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:id="@+id/txt_machine"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        // Household
+        <ImageView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="100dp"
+            android:maxWidth="@dimen/homepage_thumbnail_width"
+            android:src="@drawable/homepage_tb_household"
+            android:clickable="true"
+            android:layout_gravity="left|center_vertical" />
+        <TextView
+            android:layout_width="@dimen/homepage_thumbnail_width"
+            android:layout_height="40dp"
+            android:text="Household"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:id="@+id/txt_household"
+            android:typeface="monospace" />
+    </LinearLayout>
+
+
+
+
+
+</GridLayout>
