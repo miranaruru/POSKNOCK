@@ -63,18 +63,20 @@
 
     // food
     <ImageView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="400dp"
+        android:maxWidth="140dp"
+        android:maxHeight="400dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="0dp"
         android:src="@drawable/food"
         android:layout_gravity="left|center_vertical" />
 
     <TextView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:text="Food"
         android:gravity="center"
         android:background="#ffffff"
@@ -84,18 +86,20 @@
 
     // fruit
     <ImageView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="400dp"
+        android:maxWidth="140dp"
+        android:maxHeight="400dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="0dp"
         android:src="@drawable/fruit"
         android:layout_gravity="right|center_vertical" />
 
     <TextView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="70dp"
         android:text="Fruit"
         android:gravity="center"
         android:background="#ffffff"
@@ -105,19 +109,21 @@
 
     // tutor
     <ImageView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="400dp"
+        android:maxWidth="140dp"
+        android:maxHeight="400dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="150dp"
         android:src="@drawable/tutor"
         android:layout_gravity="left|center"
         android:id="@+id/pic_tutor" />
 
     <TextView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="210dp"
         android:text="Tutor"
         android:gravity="center"
         android:background="#ffffff"
@@ -127,18 +133,20 @@
 
     // machine
     <ImageView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="400dp"
+        android:maxWidth="140dp"
+        android:maxHeight="400dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="150dp"
         android:src="@drawable/machine"
         android:layout_gravity="right|center_vertical" />
 
     <TextView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="235dp"
+        android:layout_marginTop="205dp"
         android:text="Machine"
         android:gravity="center"
         android:background="#ffffff"
@@ -148,19 +156,21 @@
 
     //condiment
     <ImageView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="400dp"
+        android:maxWidth="140dp"
+        android:maxHeight="400dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginTop="290dp"
         android:src="@drawable/condiment"
         android:layout_gravity="left|center"
         android:id="@+id/pic_condiment" />
 
     <TextView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginLeft="40dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="370dp"
         android:text="Condiment"
         android:gravity="center"
         android:background="#ffffff"
@@ -170,18 +180,20 @@
 
     //household
     <ImageView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="400dp"
+        android:maxWidth="140dp"
+        android:maxHeight="400dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="340dp"
+        android:layout_marginTop="310dp"
         android:src="@drawable/household"
         android:layout_gravity="right|center_vertical" />
 
     <TextView
-        android:layout_width="142dp"
+        android:layout_width="140dp"
         android:layout_height="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="370dp"
         android:text="Household"
         android:gravity="center"
         android:background="#ffffff"
