@@ -16,8 +16,6 @@
         android:gravity="center"
         android:background="@drawable/img_pos_knock_background"/>
 
-
-now it's ok la~ hands to you!
     <Button
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -27,10 +25,9 @@ now it's ok la~ hands to you!
         android:layout_gravity="right|top" />
 
     <TextView
-        android:layout_width="260dp"
+        android:layout_width="240dp"
         android:layout_height="40dp"
-        android:textAppearance="@color/switch_thumb_normal_material_light"
-        android:text="USERNAME"
+        android:text="username"
         android:textSize="25dp"
         android:textColor="#A2CC17"
         android:background="#ffffff"
@@ -41,5 +38,70 @@ now it's ok la~ hands to you!
         android:singleLine="false"
         android:typeface="monospace" />
 
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:maxWidth="240dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="left|center"
+        android:inputType="textEmailAddress"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_style"/>
+
+    <TextView
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:text="password"
+        android:textSize="25dp"
+        android:textColor="#A2CC17"
+        android:background="#ffffff"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/txt_password"
+        android:layout_gravity="left|center"
+        android:singleLine="false"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:maxWidth="240dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="50dp"
+        android:layout_gravity="left|center"
+        android:background="@drawable/edit_text_style"
+        android:inputType="textPassword"
+        android:gravity="left|center_vertical"
+        android:padding="5dp"
+        android:ellipsize="start"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="forget password?"
+        android:textColor="@color/posknock_color"
+        android:clickable="true"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="-30dp"/>
+    //login btn
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Log In"
+        android:textSize="20dp"
+        android:id="@+id/btn_login"
+        android:background="#A2CC17"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="70dp"
+        android:layout_marginLeft="0dp"
+        android:layout_gravity="center|bottom" />
+
+
+
+    <include layout="@layout/layout_bottom"></include>
 
 </FrameLayout>
