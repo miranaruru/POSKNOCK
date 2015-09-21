@@ -45,7 +45,15 @@
             android:layout_gravity="center_horizontal|top"
             android:gravity="center"
              />
-
     </LinearLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        >
+        <include layout="@layout/category_list_thumnails"></include>
+    </ScrollView>
+
 
 </FrameLayout>

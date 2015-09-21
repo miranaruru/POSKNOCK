@@ -101,7 +101,8 @@
             android:maxWidth="@dimen/homepage_thumbnail_width"
             android:src="@drawable/homepage_tb_machine"
             android:clickable="true"
-            android:layout_gravity="left|center_vertical" />
+            android:layout_gravity="left|center_vertical"
+            android:id="@+id/thumb_machine"/>
         <TextView
             android:layout_width="@dimen/homepage_thumbnail_width"
             android:layout_height="40dp"
