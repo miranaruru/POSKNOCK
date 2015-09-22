@@ -30,7 +30,13 @@
             android:name=".activity.CategoryActivity"
             android:label="@string/app_name"></activity>
 
+        <activity
+            android:name=".activity.FAQActivity"
+            android:label="@string/app_name"></activity>
 
+        <activity
+            android:name=".activity.ContactUsActivity"
+            android:label="@string/app_name"></activity>
     </application>
 
 </manifest>

@@ -48,6 +48,7 @@
             android:orientation="vertical">
             //1stquestion
             <TextView
+                android:layout_marginTop="20dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
@@ -63,6 +64,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:text="First, you need to choose or search the
 service type you need. And then, you can
@@ -96,6 +99,8 @@ to provide service with Wise POS. And you
 can pay for your service/product with
 your credit card."
                 android:id="@+id/anstwo_text"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
                 />
@@ -122,6 +127,8 @@ your credit card."
  refuse to pay for the service/product with
  reasonable reasons."
                 android:id="@+id/ansthree_text"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="20dp"
                 />
