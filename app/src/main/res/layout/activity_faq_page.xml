@@ -23,4 +23,115 @@
         android:background="@drawable/menu_button"
         android:layout_gravity="right|top" />
 
+    //FAQ
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="FAQ"
+        android:id="@+id/FAQ_text"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="30dp"
+        android:textColor="#FFCDF421"
+        android:shadowColor="#000000"
+        android:shadowDy="1"
+        android:layout_gravity="left|top" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            //1stquestion
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="How do I place an order?"
+                android:id="@+id/questionone_text"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="25dp"
+                />
+
+            //1answer
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="First, you need to choose or search the
+service type you need. And then, you can
+find nearby stores. After choosing the one
+you like, you can chat with store owner,
+and after that you can place your order."
+                android:id="@+id/ansone_text"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"/>
+
+            //2ndquestion
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Payment"
+                android:id="@+id/questiontwo_text"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="100dp"/>
+
+            //2ndanswer
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="You just need to prepare your credit card.
+The store owner will come to your place
+to provide service with Wise POS. And you
+can pay for your service/product with
+your credit card."
+                android:id="@+id/anstwo_text"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                />
+
+            //3rdquestion
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Returns &amp; Refunds"
+                android:id="@+id/questionthree_text"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="60dp"
+                 />
+
+            //3rdanswer
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="If you don't satisfy with service, you can
+ refuse to pay for the service/product with
+ reasonable reasons."
+                android:id="@+id/ansthree_text"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                />
+            /需要往下滑页面/
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
 </FrameLayout>

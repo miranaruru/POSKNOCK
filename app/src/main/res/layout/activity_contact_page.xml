@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text=" POS \n KNOCK "
+        android:textSize="25dp"
+        android:textColor="#F3A545"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:background="@drawable/img_pos_knock_background"/>
 
-</LinearLayout>
+    /* menu */
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/menu_button"
+        android:layout_gravity="right|top" />
+
+    //contact us
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="CONTACT US"
+        android:id="@+id/contact_text"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="40dp"
+        android:textColor="#FFCDF421"
+        android:layout_gravity="left|top" />
+
+    //address
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="POSKnock
+Cornwall 22, Kowloon,
+Hong Kong
+
+ganjunyi94@hotmail.com
+
+Tel: (852)59898345"
+        android:id="@+id/Posknock_text"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_gravity="left|center_vertical" />
+
+    //fbimg
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgbtn_fb"
+        android:src="@drawable/homepage_tb_facebook_link"
+        android:background="#0000"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="-100dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    //twimg
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgbtn_tw"
+        android:src="@drawable/homepage_tb_twitter_link"
+        android:background="#0000"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="-60dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imgbtn_ins"
+        android:src="@drawable/homepage_tb_instagram_link"
+        android:background="#0000"
+        android:layout_marginBottom="60dp"
+        android:layout_marginLeft="-20dp"
+        android:layout_gravity="center_horizontal|bottom" />
+
+
+</FrameLayout>
