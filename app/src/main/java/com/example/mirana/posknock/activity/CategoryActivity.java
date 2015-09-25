@@ -24,12 +24,21 @@ public class CategoryActivity extends Activity {
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
     private Button btn_menu;
+    private Button btn_knock_computer;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_list);
         spinner = (Spinner) findViewById(R.id.spinner);
         btn_menu = (Button) findViewById(R.id.btn_menu);
+        btn_knock_computer = (Button) findViewById(R.id.btn_knock_computer);
+        btn_knock_computer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(CategoryActivity.this, StoreListActivity.class);
+                startActivity(i);
+            }
+        });
 
         this.array = new String[] {"5KM", "10KM", "20KM", "50KM", "100KM"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, R.layout.simple_spinner_item,array);
