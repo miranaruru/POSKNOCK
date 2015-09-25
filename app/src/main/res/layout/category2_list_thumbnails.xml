@@ -7,7 +7,7 @@
     android:rowCount="6"
     android:orientation="vertical">
 
-    //computer
+    //computer repair
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -17,7 +17,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/screwdriver"/>
+            android:src="@drawable/computer_repair"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -28,38 +28,27 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Computer"
-                android:textColor="@color/posknock_color"/>
+                android:text="Computer Repair"
+                android:textColor="#000000"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="5 stores within 5km" />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:paddingTop="15dp"
-                android:text="From $10:"/>
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="Service from 300m"
-                android:paddingBottom="15dp"/>
+                android:text="$9.99"
+                android:textColor="#aaaaaa"/>
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/posknock_color"
+                android:background="#A2CC17"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:layout_margin="5dp"
-                android:text="knock"/>
+                android:text="knock"
+                android:layout_gravity="right" />
         </LinearLayout>
 
     </LinearLayout>
 
-    //phone
+    //accessories
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -69,7 +58,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/phone"/>
+            android:src="@drawable/accessories"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -80,38 +69,27 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Mobile Phone"
-                android:textColor="@color/posknock_color"/>
+                android:text="Accessories"
+                android:textColor="#000000"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="5 stores within 5km" />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:paddingTop="15dp"
-                android:text="From $6:"/>
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="Service from 533m"
-                android:paddingBottom="15dp"/>
+                android:text="$3.99"
+                android:textColor="#aaaaaa"/>
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/posknock_color"
+                android:background="#A2CC17"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:layout_margin="5dp"
-                android:text="knock"/>
+                android:text="knock"
+                android:layout_gravity="right" />
         </LinearLayout>
 
     </LinearLayout>
 
-    //disk
+    //kit
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -121,7 +99,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/disk"/>
+            android:src="@drawable/kit"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -132,38 +110,27 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Other IT service"
-                android:textColor="@color/posknock_color"/>
+                android:text="Kit/Component"
+                android:textColor="#000000"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="5 stores within 5km" />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:paddingTop="15dp"
-                android:text="From $3:"/>
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="Service from 120m"
-                android:paddingBottom="15dp"/>
+                android:text="$4.99"
+                android:textColor="#aaaaaa"/>
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/posknock_color"
+                android:background="#A2CC17"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:layout_margin="5dp"
-                android:text="knock"/>
+                android:text="knock"
+                android:layout_gravity="right" />
         </LinearLayout>
 
     </LinearLayout>
 
-    //air condinationer
+    //homebrew
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -173,7 +140,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/airconditioner"/>
+            android:src="@drawable/homebrew"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -184,38 +151,27 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Air Conditioner"
-                android:textColor="@color/posknock_color"/>
+                android:text="Homebrew Computer \nClub Training"
+                android:textColor="#000000"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="5 stores within 5km" />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:paddingTop="15dp"
-                android:text="From $8:"/>
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="Service from 1.2km"
-                android:paddingBottom="15dp"/>
+                android:text="$9.99"
+                android:textColor="#aaaaaa"/>
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/posknock_color"
+                android:background="#A2CC17"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:layout_margin="5dp"
-                android:text="knock"/>
+                android:text="knock"
+                android:layout_gravity="right" />
         </LinearLayout>
 
     </LinearLayout>
 
-    //mircrowave
+    //selling
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -225,7 +181,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/mircrowave"/>
+            android:src="@drawable/selling"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
@@ -236,38 +192,27 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Kitchen appliance"
-                android:textColor="@color/posknock_color"/>
+                android:text="Second-hand Computer Selling"
+                android:textColor="#000000"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="5 stores within 5km" />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:paddingTop="15dp"
-                android:text="From $5:"/>
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="Service from 1.8km"
-                android:paddingBottom="15dp"/>
+                android:text="$119.99"
+                android:textColor="#aaaaaa"/>
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/posknock_color"
+                android:background="#A2CC17"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:layout_margin="5dp"
-                android:text="knock"/>
+                android:text="knock"
+                android:layout_gravity="right" />
         </LinearLayout>
 
     </LinearLayout>
 
-    //washingmachine
+    //assembly
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
@@ -277,7 +222,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:src="@drawable/washingmachine"/>
+            android:src="@drawable/assembly"/>
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
@@ -288,33 +233,22 @@
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Washing Machine"
-                android:textColor="@color/posknock_color"/>
+                android:text="Assembly"
+                android:textColor="#000000"/>
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="5 stores within 5km" />
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:paddingTop="15dp"
-                android:text="From $8:"/>
-            <TextView
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#aaaaaa"
-                android:text="Service from 1km"
-                android:paddingBottom="15dp"/>
+                android:text="$5.99"
+                android:textColor="#aaaaaa"/>
             <Button
-                android:layout_width="fill_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/posknock_color"
+                android:background="#A2CC17"
                 android:textColor="#ffffff"
                 android:textSize="20dp"
                 android:layout_margin="5dp"
-                android:text="knock"/>
+                android:text="knock"
+                android:layout_gravity="right" />
         </LinearLayout>
     </LinearLayout>
 

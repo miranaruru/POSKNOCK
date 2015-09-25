@@ -5,7 +5,7 @@
     android:id="@+id/activity_function_page">
 
 
-
+    //posknock logo
     <TextView
         android:layout_width="100dp"
         android:layout_height="100dp"
@@ -17,7 +17,7 @@
         android:gravity="center"
         android:background="@drawable/img_pos_knock_background"/>
 
-
+    //meun button
     <Button
         android:layout_width="40dp"
         android:layout_height="40dp"
@@ -26,21 +26,214 @@
         android:background="@drawable/menu_button"
         android:layout_gravity="right|top" />
 
-    //computer repair
-    <ImageView
-        android:layout_width="wrap_content"
+    <ScrollView
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:src="@drawable/computer_repair"
-        android:layout_gravity="center" />
+        android:layout_marginTop="0dp"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Small Text"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal|bottom" />
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Repair\n$9.99"
+                android:textSize="25dp"
+                android:layout_marginLeft="30dp"/>
+
+            //computer repair
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/computer_repair"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="From $10. Including system \nreinstallation and so on"
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="left" />
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    //quantities
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="20dp"
+                        android:text="Quantity"
+                        android:textColor="#aaaaaa"
+                        android:textSize="20dp"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="30dp"/>
+
+                    <Spinner
+                        android:layout_width="100dp"
+                        android:layout_height="30dp"
+                        android:id="@+id/quantity"
+                        android:textAlignment="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                //online chat
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/imgbtn_chat"
+                    android:layout_gravity="right"
+                    android:src="@drawable/chat"
+                    android:background="#ffffff"
+                    android:layout_marginRight="30dp"/>
+
+                <ImageButton
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgbtn_online"
+                    android:layout_gravity="right"
+                    android:src="@drawable/online"
+                    android:background="#ffffff"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="100dp"/>
+            </FrameLayout>
+
+            //place order
+            <Button
+                android:layout_width="360dp"
+                android:layout_height="80dp"
+                android:text="Place Order"
+                android:background="#A2CC17"
+                android:textColor="#ffffff"
+                android:textSize="30dp"
+                android:layout_gravity="center"
+                android:typeface="monospace"
+                android:layout_marginTop="30dp"/>
+
+            //line
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#aaaaaa"
+                android:layout_marginTop="20dp">
+            </View>
+
+            //product imformation
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="PRODUCT INFO"
+                android:textSize="25dp"
+                android:textColor="#aaaaaa"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The store owner have over 10 year experience in \n computer repairing. Computer repairing includes \n system reinstallation, data encryption and so on. \nFor further information, please contact store owner \nin contact page."
+                android:textSize="20dp"
+                android:textColor="#aaaaaa"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"/>
+
+            //line
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#aaaaaa"
+                android:layout_marginTop="20dp">
+            </View>
+
+            //return
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="RETURN AND REFUND POLICY"
+                android:textSize="25dp"
+                android:textColor="#aaaaaa"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Free return and refund."
+                android:textSize="20dp"
+                android:textColor="#aaaaaa"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="15dp"/>
+
+            //line
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="#aaaaaa"
+                android:layout_marginTop="20dp">
+            </View>
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                //fbimg
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imgbtn_fb"
+                    android:src="@drawable/homepage_tb_facebook_link"
+                    android:background="#0000"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginLeft="-100dp"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                //twimg
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imgbtn_tw"
+                    android:src="@drawable/homepage_tb_twitter_link"
+                    android:background="#0000"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginLeft="-60dp"
+                    android:layout_gravity="center_horizontal|bottom" />
+
+                <ImageButton
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imgbtn_ins"
+                    android:src="@drawable/homepage_tb_instagram_link"
+                    android:background="#0000"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginLeft="-20dp"
+                    android:layout_gravity="center_horizontal|bottom" />
+            </FrameLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
 
 
 </FrameLayout>
